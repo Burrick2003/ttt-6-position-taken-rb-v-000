@@ -1,5 +1,5 @@
 # code your #position_taken? method here!
-def position_taken(board=0, index=0)
+def position_taken?(board, index)
   if board[index] == "X" || board[index] == "Y"
     true
   #elsif board[index] == " " || board[index] == ""
